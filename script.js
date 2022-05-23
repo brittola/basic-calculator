@@ -23,6 +23,9 @@ function write(event){
         return;
     }else{
         screen.value += btContent;
+        if(btType == 'operator'){
+            point = false;
+        }
     }
 }
 
